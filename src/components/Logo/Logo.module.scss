@@ -1,0 +1,32 @@
+.Logo {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.Logo img {
+  width: 34px;
+  height: 34px;
+}
+
+.LogoText {
+  padding-left: 10px;
+  font-weight: 800;
+  color: inherit;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.LogoText p {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+}
+.LogoText span {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+}

@@ -1,0 +1,57 @@
+.Section {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: inherit;
+  opacity: 0;
+  transition: 1s;
+  &.Visible {
+    opacity: 1;
+  }
+}
+
+.Dark {
+  color: #fff;
+  background: var(--text-color);
+}
+
+.FullScreen {
+  min-height: 100vh;
+}
+
+.padTopNone {
+  padding-top: 0px;
+}
+
+.padTopSmall {
+  padding-top: 40px;
+}
+
+.padTopBig {
+  padding-top: 140px;
+}
+
+.padBottomNone {
+  padding-bottom: 0px;
+}
+
+.padBottomSmall {
+  padding-bottom: 40px;
+}
+
+.padBottomBig {
+  padding-bottom: 140px;
+}
+
+.Mask {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
